@@ -11,6 +11,13 @@ test('analyzeLibraries', () => {
       object: { text: ':manifest lib TCP' },
     },
     {
+      nameWithOwner: 'savi-lang/ByteStream',
+      description:
+        'Read from and write to byte streams using the Savi standard library.',
+      stargazerCount: 506,
+      object: { text: ':manifest lib ByteStream' },
+    },
+    {
       nameWithOwner: 'savi-lang/Spec',
       description: 'The official testing framework for Savi.',
       stargazerCount: 1104,
@@ -47,6 +54,7 @@ test('analyzeLibraries', () => {
   expect(analysis).toStrictEqual({
     locationsByLibraryNameList: [
       ['TCP', ['github:savi-lang/TCP']],
+      ['ByteStream', ['github:savi-lang/ByteStream']],
       ['Spec', ['github:savi-lang/Spec']],
       ['Thing', ['github:example/Thing', 'github:other/savi-Thing']],
       ['Experiment', ['github:other/savi-Experiment']],
@@ -63,6 +71,15 @@ test('analyzeLibraries', () => {
             description: 'The official testing framework for Savi.',
             location: 'github:savi-lang/Spec',
             stars: 1104,
+          },
+          {
+            owner: 'savi-lang',
+            name: 'ByteStream',
+            libraryName: 'ByteStream',
+            description:
+              'Read from and write to byte streams using the Savi standard library.',
+            location: 'github:savi-lang/ByteStream',
+            stars: 506,
           },
           {
             owner: 'savi-lang',

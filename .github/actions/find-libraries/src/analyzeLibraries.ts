@@ -75,7 +75,9 @@ export function analyzeLibraries(list: FoundLibraryInfo[]): {
         (sum: number, libraryInfo) => sum + libraryInfo.stars,
         0,
       ),
-      libraryInfos.sort((a, b) => b.stars - a.stars),
+      libraryInfos
+        .sort((a, b) => (a.name > b.name ? 1 : b.name > a.name ? -1 : 0))
+        .sort((a, b) => b.stars - a.stars),
     ])
     .sort(([aOwner, aStars], [bOwner, bStars]) => {
       if (aOwner === 'savi-lang') return -1
