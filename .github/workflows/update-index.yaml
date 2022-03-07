@@ -1,0 +1,23 @@
+name: update-index
+
+on:
+  workflow_dispatch: {}  # allow manual trigger
+  schedule:
+    - cron: "0 10 * * *" # daily at 10:00 UTC
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/find-libraries
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+      - run: |
+          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          git pull github ${GITHUB_REF} --ff-only
+
+          git add .
+
+          git commit -m "Update library index"
+          git push github HEAD:${GITHUB_REF}

@@ -1,0 +1,11 @@
+author: Savi
+name: Find Libraries
+description: >
+  A GitHub Action to find Savi libraries and index them.
+inputs:
+  github-token:
+    description: User token to be associated with this pull request.
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
