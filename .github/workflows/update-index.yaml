@@ -25,5 +25,5 @@ jobs:
 
           git add .
 
-          git commit -m "Update library index"
+          git commit -m "Update library index" || echo "Nothing to commit."
           git push github HEAD:${GITHUB_REF}
