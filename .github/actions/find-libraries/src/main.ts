@@ -19,7 +19,7 @@ async function run(): Promise<void> {
     const analysis = analyzeLibraries(libraries)
     const markdown = showLibrariesAsMarkdown(analysis.sortedLibraryInfosByOwner)
 
-    writeFileSync('libraries.md', markdown)
+    writeFileSync('all.md', markdown)
   } catch (error) {
     if (error instanceof Error) Core.setFailed(error.message)
   }

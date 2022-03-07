@@ -205,7 +205,7 @@ function run() {
             const libraries = yield (0, findAllSaviLibraries_1.findAllSaviLibraries)(input);
             const analysis = (0, analyzeLibraries_1.analyzeLibraries)(libraries);
             const markdown = (0, showLibrariesAsMarkdown_1.showLibrariesAsMarkdown)(analysis.sortedLibraryInfosByOwner);
-            (0, fs_1.writeFileSync)('libraries.md', markdown);
+            (0, fs_1.writeFileSync)('all.md', markdown);
         }
         catch (error) {
             if (error instanceof Error)
