@@ -15,7 +15,8 @@ jobs:
       - uses: ./.github/actions/find-libraries
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
-      - run: |
+      - name: Commit changes
+        run: |
           git config user.email savi-lang-bot@gmail.com
           git config user.name savi-lang-bot
 
