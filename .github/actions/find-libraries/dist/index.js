@@ -201,13 +201,17 @@ function run() {
             const githubToken = Core.getInput('github-token', { required: true });
             const input = {
                 github: GitHub.getOctokit(githubToken),
-                githubActor: GitHub.context.actor,
-                githubToken,
             };
+            // Find and analyze libraries.
             const libraries = yield (0, findAllSaviLibraries_1.findAllSaviLibraries)(input);
             const analysis = (0, analyzeLibraries_1.analyzeLibraries)(libraries);
+            // Write "all libraries" markdown file (for human consumption).
             const markdown = (0, showLibrariesAsMarkdown_1.showLibrariesAsMarkdown)(analysis.sortedLibraryInfosByOwner);
             (0, fs_1.writeFileSync)('all.md', markdown);
+            // Write "by library name" text files (for Savi compiler consumption).
+            analysis.locationsByLibraryNameList.forEach(([libraryName, locations]) => {
+                (0, fs_1.writeFileSync)(`by-lib-name/${libraryName}.txt`, `${locations.sort((a, b) => a.localeCompare(b)).join('\n')}\n`);
+            });
         }
         catch (error) {
             if (error instanceof Error)
