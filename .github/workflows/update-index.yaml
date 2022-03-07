@@ -4,6 +4,8 @@ on:
   workflow_dispatch: {}  # allow manual trigger
   schedule:
     - cron: "0 10 * * *" # daily at 10:00 UTC
+  push:
+    branches: [main]     # on main branch commits
 
 jobs:
   update-index:
