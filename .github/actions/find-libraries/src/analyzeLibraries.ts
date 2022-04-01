@@ -19,7 +19,7 @@ export function analyzeLibraries(list: FoundLibraryInfo[]): {
   // Iterate over each repo in the list, gathering analysis by mutating
   // the above declared collections.
   list.forEach(repoInfo => {
-    const manifestDotSaviText = repoInfo.object.text || ''
+    const manifestDotSaviText = repoInfo.object?.text || ''
     const libaryNames = [
       ...manifestDotSaviText.matchAll(/^:manifest lib (\w+)$/gm),
     ].map(match => match[1])

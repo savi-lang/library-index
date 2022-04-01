@@ -52,7 +52,7 @@ export interface FoundLibraryInfo {
   nameWithOwner: string
   description?: string
   stargazerCount: number
-  object: {
+  object?: {
     text?: string
   }
 }

@@ -14,7 +14,8 @@ function analyzeLibraries(list) {
     // Iterate over each repo in the list, gathering analysis by mutating
     // the above declared collections.
     list.forEach(repoInfo => {
-        const manifestDotSaviText = repoInfo.object.text || '';
+        var _a;
+        const manifestDotSaviText = ((_a = repoInfo.object) === null || _a === void 0 ? void 0 : _a.text) || '';
         const libaryNames = [
             ...manifestDotSaviText.matchAll(/^:manifest lib (\w+)$/gm),
         ].map(match => match[1]);
@@ -1868,7 +1869,7 @@ function _objectWithoutProperties(source, excluded) {
   return target;
 }
 
-const VERSION = "3.5.1";
+const VERSION = "3.6.0";
 
 const _excluded = ["authStrategy"];
 class Octokit {
