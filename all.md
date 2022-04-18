@@ -35,3 +35,9 @@ Regular expressions for the Savi standard library, written in pure Savi.
 Unicode-aware operations for the Savi standard library.
 
 ---
+# Libraries by @jemc-savi
+
+### [CapnProto](https://github.com/jemc-savi/CapnProto) [![releases](https://img.shields.io/github/release/jemc-savi/CapnProto.svg?logo=github)](https://github.com/jemc-savi/CapnProto/releases) [![checks](https://github.com/jemc-savi/CapnProto/actions/workflows/library-check.yaml/badge.svg)](https://github.com/jemc-savi/CapnProto/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/jemc-savi/CapnProto?logo=github&color=yellowgreen)](https://github.com/jemc-savi/CapnProto/stargazers)
+Cap'n Proto serialized data structures for the Savi language.
+
+---
