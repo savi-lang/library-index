@@ -51,6 +51,8 @@ Cap'n Proto serialized data structures for the Savi language.
 
 ### [MQTT](https://github.com/mneumann/savi-MQTT) [![releases](https://img.shields.io/github/release/mneumann/savi-MQTT.svg?logo=github)](https://github.com/mneumann/savi-MQTT/releases) [![checks](https://github.com/mneumann/savi-MQTT/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann/savi-MQTT/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann/savi-MQTT?logo=github&color=yellowgreen)](https://github.com/mneumann/savi-MQTT/stargazers)
 MQTT client library for Savi
+### [MessagePack](https://github.com/mneumann/savi-MessagePack) [![releases](https://img.shields.io/github/release/mneumann/savi-MessagePack.svg?logo=github)](https://github.com/mneumann/savi-MessagePack/releases) [![checks](https://github.com/mneumann/savi-MessagePack/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann/savi-MessagePack/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann/savi-MessagePack?logo=github&color=yellowgreen)](https://github.com/mneumann/savi-MessagePack/stargazers)
+MessagePack for Savi
 ### [Postgres](https://github.com/mneumann/savi-Postgres) [![releases](https://img.shields.io/github/release/mneumann/savi-Postgres.svg?logo=github)](https://github.com/mneumann/savi-Postgres/releases) [![checks](https://github.com/mneumann/savi-Postgres/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann/savi-Postgres/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann/savi-Postgres?logo=github&color=yellowgreen)](https://github.com/mneumann/savi-Postgres/stargazers)
 Postgres library for Savi
 
