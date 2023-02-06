@@ -47,6 +47,14 @@ Unicode-aware operations for the Savi standard library.
 Cap'n Proto serialized data structures for the Savi language.
 
 ---
+# Libraries by @mneumann-savi
+
+### [GL](https://github.com/mneumann-savi/GL) [![releases](https://img.shields.io/github/release/mneumann-savi/GL.svg?logo=github)](https://github.com/mneumann-savi/GL/releases) [![checks](https://github.com/mneumann-savi/GL/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann-savi/GL/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann-savi/GL?logo=github&color=yellowgreen)](https://github.com/mneumann-savi/GL/stargazers)
+OpenGL bindings for Savi
+### [GLFW](https://github.com/mneumann-savi/GLFW) [![releases](https://img.shields.io/github/release/mneumann-savi/GLFW.svg?logo=github)](https://github.com/mneumann-savi/GLFW/releases) [![checks](https://github.com/mneumann-savi/GLFW/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann-savi/GLFW/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann-savi/GLFW?logo=github&color=yellowgreen)](https://github.com/mneumann-savi/GLFW/stargazers)
+GLFW bindings for Savi
+
+---
 # Libraries by @mneumann
 
 ### [MQTT](https://github.com/mneumann/savi-MQTT) [![releases](https://img.shields.io/github/release/mneumann/savi-MQTT.svg?logo=github)](https://github.com/mneumann/savi-MQTT/releases) [![checks](https://github.com/mneumann/savi-MQTT/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann/savi-MQTT/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann/savi-MQTT?logo=github&color=yellowgreen)](https://github.com/mneumann/savi-MQTT/stargazers)
