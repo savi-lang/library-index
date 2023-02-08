@@ -1,1 +1,1 @@
-github:mneumann/savi-Postgres
+github:mneumann-savi/Postgres

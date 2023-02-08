@@ -1,1 +1,1 @@
-github:mneumann/savi-MessagePack
+github:mneumann-savi/MessagePack
