@@ -45,6 +45,10 @@ Unicode-aware operations for the Savi standard library.
 
 ### [CapnProto](https://github.com/jemc-savi/CapnProto) [![releases](https://img.shields.io/github/release/jemc-savi/CapnProto.svg?logo=github)](https://github.com/jemc-savi/CapnProto/releases) [![checks](https://github.com/jemc-savi/CapnProto/actions/workflows/library-check.yaml/badge.svg)](https://github.com/jemc-savi/CapnProto/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/jemc-savi/CapnProto?logo=github&color=yellowgreen)](https://github.com/jemc-savi/CapnProto/stargazers)
 Cap'n Proto serialized data structures for the Savi language.
+### [Torch](https://github.com/jemc-savi/Torch) [![releases](https://img.shields.io/github/release/jemc-savi/Torch.svg?logo=github)](https://github.com/jemc-savi/Torch/releases) [![checks](https://github.com/jemc-savi/Torch/actions/workflows/library-check.yaml/badge.svg)](https://github.com/jemc-savi/Torch/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/jemc-savi/Torch?logo=github&color=yellowgreen)](https://github.com/jemc-savi/Torch/stargazers)
+A wrapper for `libtorch` (the C++ library underpinning `pytorch`) for Savi.
+### [Tensor](https://github.com/jemc-savi/Tensor) [![releases](https://img.shields.io/github/release/jemc-savi/Tensor.svg?logo=github)](https://github.com/jemc-savi/Tensor/releases) [![checks](https://github.com/jemc-savi/Tensor/actions/workflows/library-check.yaml/badge.svg)](https://github.com/jemc-savi/Tensor/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/jemc-savi/Tensor?logo=github&color=yellowgreen)](https://github.com/jemc-savi/Tensor/stargazers)
+TensorFlow bindings for Savi.
 
 ---
 # Libraries by @mneumann-savi
