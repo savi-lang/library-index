@@ -53,6 +53,8 @@ TensorFlow bindings for Savi.
 ---
 # Libraries by @mneumann-savi
 
+### [FileSystem](https://github.com/mneumann-savi/FileSystem) [![releases](https://img.shields.io/github/release/mneumann-savi/FileSystem.svg?logo=github)](https://github.com/mneumann-savi/FileSystem/releases) [![checks](https://github.com/mneumann-savi/FileSystem/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann-savi/FileSystem/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann-savi/FileSystem?logo=github&color=yellowgreen)](https://github.com/mneumann-savi/FileSystem/stargazers)
+Filesystem manipulation operations
 ### [GL](https://github.com/mneumann-savi/GL) [![releases](https://img.shields.io/github/release/mneumann-savi/GL.svg?logo=github)](https://github.com/mneumann-savi/GL/releases) [![checks](https://github.com/mneumann-savi/GL/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann-savi/GL/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann-savi/GL?logo=github&color=yellowgreen)](https://github.com/mneumann-savi/GL/stargazers)
 OpenGL bindings for Savi
 ### [GLFW](https://github.com/mneumann-savi/GLFW) [![releases](https://img.shields.io/github/release/mneumann-savi/GLFW.svg?logo=github)](https://github.com/mneumann-savi/GLFW/releases) [![checks](https://github.com/mneumann-savi/GLFW/actions/workflows/library-check.yaml/badge.svg)](https://github.com/mneumann-savi/GLFW/actions/workflows/library-check.yaml) [![stars](https://shields.io/github/stars/mneumann-savi/GLFW?logo=github&color=yellowgreen)](https://github.com/mneumann-savi/GLFW/stargazers)
